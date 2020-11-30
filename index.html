@@ -1,15 +1,22 @@
-<!DOCTYPE html><html lang=en id=delta><head><script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+<!DOCTYPE html><html lang=ru id=delta><head><script>(function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(67332934, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
         });</script><noscript><div><img src=https://mc.yandex.ru/watch/67332934 style="position:absolute; left:-9999px;" alt=""></div></noscript><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=logo.ico><title>Экпертиза</title><link href=/delta/css/chunk-04f9d3a8.2121a2b8.css rel=prefetch><link href=/delta/css/chunk-988c452c.92e5b204.css rel=prefetch><link href=/delta/js/chunk-04f9d3a8.df9660b7.js rel=prefetch><link href=/delta/js/chunk-988c452c.a2194b6d.js rel=prefetch><link href=/delta/css/app.967b52c2.css rel=preload as=style><link href=/delta/css/chunk-vendors.0470b432.css rel=preload as=style><link href=/delta/js/app.5e9945bc.js rel=preload as=script><link href=/delta/js/chunk-vendors.90dd21f0.js rel=preload as=script><link href=/delta/css/chunk-vendors.0470b432.css rel=stylesheet><link href=/delta/css/app.967b52c2.css rel=stylesheet></head><body><h1 id=name></h1><noscript><header class="header padding" id=header><div><a href=tel:+74959371722>Вызвать эксперта / Консультация</a></div></header><strong>Простите, но delta не может корректно работать без включенного Javascript. Пожалуйста, включите Javascript, для корректной работы сайта.</strong></noscript><div id=app></div><script>function isIE() {
-        let name = window.navigator.userAgent;
-        let place = document.getElementById('name');
-        return place.innerHTML = name;
+        let name = navigator.userAgent.toLowerCase();
+        return (name.indexOf('msie') != -1) ? parseInt(name.split('msie')[1]) : false;
     }
-    isIE();</script><script src=/delta/js/chunk-vendors.90dd21f0.js></script><script src=/delta/js/app.5e9945bc.js></script></body></html>
+
+    let block = document.getElementById('name');
+    let name = isIE();
+    block.innerHTML = name;</script><script src=/delta/js/chunk-vendors.90dd21f0.js></script><script src=/delta/js/app.5e9945bc.js></script></body></html>
